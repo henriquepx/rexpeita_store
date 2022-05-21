@@ -1,0 +1,107 @@
+/* RESPONSIVO 1048PX */
+
+@media screen and (max-width: 1024px) {
+
+	main .rx {
+    	padding: 5rem 7rem;
+	}
+
+	footer .containernewslatters {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		gap: 30px;
+	}
+
+}
+
+/* RESPONSIVO 768PX */
+
+@media screen and (max-width: 768px) {
+
+.containerprodutos {
+	flex-direction: column;
+}
+
+section .rx img {
+	width: 68%;
+}
+
+section .rx .rxtexto h1 {
+	font-size: 60px;
+}
+
+section .rx .rxtexto p {
+	font-size: 20px;
+}
+
+}
+
+/* RESPONSIVO 425PX */
+
+@media screen and (max-width: 425px) {
+
+section .introduçãoimagens {
+	flex-direction: column;
+}
+
+section .introduçãoimagens img {
+	width: 100%;
+
+	padding: 1rem;
+}
+
+main .rx {
+	flex-direction: column;
+	gap: 30px;
+}
+
+main .rx img {
+	width: 180%;
+}
+
+main .rx .rxtexto {
+	text-align: center;
+}
+
+.cabecalho {
+	flex-direction: column;
+}
+
+.cabecalho nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	margin-top: 20px;
+}
+
+.containerprodutos .cardproduto .card img {
+	width: 90%;
+}
+
+footer .containernewslatters .newsregistro button {
+	margin-top: 10px;
+}
+
+footer .containerfooter {
+	flex-wrap: wrap;
+}
+
+}
+
+/* RESPONSIVO 375PX */
+
+@media screen and (max-width: 375px) {
+
+
+	header .cabecalho nav {
+		justify-content: center;
+	}
+	header .cabecalho nav li a {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+}

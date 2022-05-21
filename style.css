@@ -1,0 +1,215 @@
+@import url(reset.css);
+@import url(responsivo.css);
+
+.cabecalho {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 2rem 1rem;
+}
+
+.cabecalho img {
+	width: 120px;
+}
+
+.cabecalho nav {
+	display: flex;
+	gap: 30px;
+
+	font-size: 20px;
+}
+
+.cabecalho nav li a {
+	color: black;
+
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.cabecalho nav li a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding-bottom: 3rem;
+	border-bottom: 1px solid #dee2e6!important;
+}
+
+.introduçãoimagens {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.introduçãoimagens img {
+	width: 50%;
+
+	padding: 2.5rem;
+}
+
+.containerprodutos {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+
+	margin-top: 2rem;
+}
+
+.containerprodutos .cardproduto {
+	margin-top: 6rem;
+}
+
+.containerprodutos .cardproduto .card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+
+	gap: 20px;
+}
+
+.containerprodutos .cardproduto .card img {
+	transition: 0.5s;
+}
+
+.containerprodutos .cardproduto .card img:hover {
+	transform: scale(1.02);
+	transition: 0.5s;
+}
+
+.containerprodutos .cardproduto .card .preçodesc {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	gap: 5px;
+}
+
+.containerprodutos .cardproduto .card .preçodesc h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.containerprodutos .cardproduto .card .preçodesc p {
+	font-size: 18px;
+}
+
+.containerprodutos .cardproduto .card .preçodesc li a {
+	font-size: 22px;
+	color: black;
+}
+
+.containerprodutos .cardproduto .card .preçodesc .carrinho {
+	display: flex;
+	gap: 15px;
+}
+
+.rx {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10rem;
+
+	padding: 0rem 7rem;
+
+	background: black;
+}
+
+.rx img {
+	width: 40%;
+}
+
+.rx .rxtexto h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 90px;
+	color: white;
+}
+
+.rx .rxtexto p {
+	font-family: 'Poppins', sans-serif; 
+	font-size: 30px;
+	color: white;
+
+	margin-bottom: 30px;
+}
+
+.rx .rxtexto li a {
+	font-family: 'Montserrat', sans-serif;
+  	font-size: 20px;
+
+  	background: black;
+  	color: #fff;
+
+  	border: 0.25rem solid gray;
+  	padding: 1rem; 	
+}
+
+.rx .rxtexto li a:hover {
+	background: white;
+	color: black;
+
+	cursor: pointer;
+}
+
+footer {
+	border-top: 1px solid #dee2e6!important;
+
+	background: #cdced0;
+}
+
+footer .containernewslatters {
+	display: flex;
+	justify-content: space-around;
+	padding: 0rem 3rem 3rem 3rem;
+
+	margin-top: 100px;
+}
+
+footer .containernewslatters .newsdesc h1 {
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer .containernewslatters .newsdesc p {
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif; 	
+}
+
+footer .containernewslatters .newsregistro input {
+	padding: 1.5rem;
+}
+
+footer .containernewslatters .newsregistro button {
+	padding: 1.5rem;
+	cursor: pointer;
+
+	background: black;
+	color: white;
+}
+
+footer .containerfooter {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer .containerfooter li a {
+	text-decoration: none;
+}
+
+footer .containerfooter li a:visited {
+	color: black;
+}
+
+footer .containerfooter li a:hover {
+	text-decoration: underline;
+}
+
+footer .copy {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+
+	padding: 3rem 0rem 1rem 0rem;
+}
