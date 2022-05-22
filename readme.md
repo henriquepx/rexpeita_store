@@ -13,4 +13,4 @@
 
 <p>Catálogo de produtos e interface de uma loja virtual. Projeto foi desenvolvido com o foco em treinar a responsividade e fixar os conhecimentos de Flexbox.
 
-![Página] ()
+![Página] (https://github.com/henriquepx/rexpeita_store/blob/main/assets/rxpage.png)
