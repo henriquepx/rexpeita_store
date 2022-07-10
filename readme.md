@@ -5,7 +5,7 @@
 <h2 align="center">Tecnologias:</h2>
 <p align="center">HTML, CSS<br>
 
-<p align="center"><a href="https://zesty-marigold-42fdb9.netlify.app/">Link para visualizar o projeto</a></p>
+<p align="center"><a href="https://shiny-taiyaki-ad3771.netlify.app/">Link para visualizar o projeto</a></p>
 
 <br>
 
